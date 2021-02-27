@@ -1,0 +1,23 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/addDoubleScoreSkin.exml",
+		"resource/eui_skins/doubleScoreSmallFrameSkin.exml",
+		"resource/eui_skins/GameColorSelectSkin.exml",
+		"resource/eui_skins/GameGigScreenSkin.exml",
+		"resource/eui_skins/GameOverSkin.exml",
+		"resource/eui_skins/GameProgressSkin.exml",
+		"resource/eui_skins/GamePropsSkin.exml",
+		"resource/eui_skins/GameSettleModalSkin.exml",
+		"resource/eui_skins/GameShareGiftSkin.exml",
+		"resource/eui_skins/GameShareModalSkin.exml",
+		"resource/eui_skins/GameSkin.exml",
+		"resource/eui_skins/GameTip.exml",
+		"resource/eui_skins/GetPropSkin.exml",
+		"resource/eui_skins/HomeSkin.exml",
+		"resource/eui_skins/PauseModalSkin.exml",
+		"resource/eui_skins/RankingSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

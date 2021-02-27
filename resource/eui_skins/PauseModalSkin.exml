@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PauseModalSkin"
+	 width="1130"
+	height="2000" xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*" xmlns:ui="ui.*">
+	<lib:Mask visible="true" horizontalCenter="-565"/>
+	<e:Group verticalCenter="-49.5" horizontalCenter="0" anchorOffsetX="0" width="1002">
+		<e:Image source="PauseModalBg.png" scaleX="1" scaleY="1" scale9Grid="119,152,758,197" height="600" horizontalCenter="15.5"/>
+		<lib:ImageButton id="restartBtn" width="200" height="200" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-97"/>
+		<e:Group height="200" horizontalCenter="0" verticalCenter="148">
+			<lib:ImageButton id="saveBtn" width="200" height="200" x="-181.00000000000006" y="-236" scaleX="1" scaleY="1"/>
+			<lib:ImageButton id="homeBtn" width="200" height="200" x="-249.9999999999999" y="0" scaleX="1" scaleY="1">
+					</lib:ImageButton>
+		<lib:ImageButton id="rankBtn" width="200" height="200" x="47" y="69">
+		</lib:ImageButton>
+		<e:layout>
+			<e:HorizontalLayout gap="50" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<lib:ImageButton id="closeBtn" width="70" height="70" anchorOffsetX="0" anchorOffsetY="0" right="-6" top="24"/>
+	</e:Group>
+</e:Skin>

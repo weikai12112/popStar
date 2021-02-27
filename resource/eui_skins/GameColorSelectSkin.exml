@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameChangeColorModalSkin"
+ xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="GameChangeColorArrow.png" y="-15.966" x="-25.214"/>
+	<e:Group id="modalUI" anchorOffsetY="0" y="-115" x="0" anchorOffsetX="52">
+		<e:Image id="bg" source="GameChangeColorModal.png" scaleX="1" scaleY="1" scale9Grid="24,34,453,33" width="490"/>
+		<e:Group id="colorGroup" height="91" y="5" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="14">
+			
+				
+					
+				
+				
+			
+			<e:layout>
+				
+					
+						
+					
+				
+				
+			<e:HorizontalLayout gap="12" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="backBtn" width="77.935" height="73.91" y="15.39" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" right="15"/>
+	</e:Group>
+</e:Skin>

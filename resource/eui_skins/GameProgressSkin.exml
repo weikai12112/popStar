@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameProgressSkin"
+ xmlns:e="http://ns.egret.com/eui" width="385" height="30">
+	<e:Image source="GameProgressBg.png"/>
+	<e:Image id="processStatic" source="GameProgressFront1.png" scale9Grid="12,0,367,31"/>
+	<e:Group id="processDynamic" height="30">
+		<e:Image source="GameProgressFront2.png" scale9Grid="11,0,367,31" x="0" y="0" scaleX="1" scaleY="1" width="100%"/>
+		<e:Image source="GameProgressStar.png" verticalCenter="-4" scaleX="1" scaleY="1" right="-37"/>
+	</e:Group>
+	<e:Group id="processWin" width="390" height="30" alpha="0">
+		
+			
+			
+			
+		
+		<e:Image source="GameProgressFront3.png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="GameProgressWinBg.png" x="320.42499999999995" y="-52.72199999999998" scaleX="1" scaleY="1"/>
+		<e:Image source="GameProgressWin.png" x="330.42499999999995" y="-44.72200000000001" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

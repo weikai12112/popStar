@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSkin"
+	 width="1130"
+	height="2000" xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*" xmlns:ui="ui.*">
+	<e:Image source="GameBg1.png" left="0" top="0" width="100%" height="100%"/>
+	<e:Group width="100%" height="2000" verticalCenter="-3">
+		<e:Image source="GameBg2.png" scaleX="1" scaleY="1" y="90" scale9Grid="0,284,1066,1024" anchorOffsetY="0" height="1362.525" horizontalCenter="3"/>
+		<e:Label id="levelUI" text="关卡" y="132" horizontalCenter="0" size="80" textColor="0xBABABA"/>
+		<lib:ImageButton id="pauseBtn" width="78" height="81.486" anchorOffsetX="0" anchorOffsetY="0" y="139" scaleX="1" scaleY="1" horizontalCenter="-394"/>
+		<e:Image source="GameScoreIcon1.png" y="290" scaleX="1" scaleY="1" horizontalCenter="-365"/>
+		<e:Image source="GameScoreIcon2.png" y="291" scaleX="1" scaleY="1" horizontalCenter="371.5"/>
+		<e:Label id="scoreLabel" size="85" text="{score}" bold="true" textColor="0x74AFB0" y="350.577" horizontalCenter="-365.5"/>
+		<e:Label text="{targetScore}" y="360.577" size="65" bold="true" textColor="0xD1D1D1" horizontalCenter="366"/>
+		<ui:GameProgress id="progressUI" horizontalCenter="0" y="314" anchorOffsetY="15"/>
+		<ui:StarBrickMartix id="brickMatrix" width="940" height="940" y="445.184" horizontalCenter="0"/>
+		<e:Group width="1057.967" height="120.693" y="1478.879" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1">
+			<e:Group id="superProp" width="122" height="122" right="23.9670000000001" verticalCenter="0.6535000000000011"/>
+			<ui:GamePropsBar height="122" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" right="179.9670000000001" left="0">
+					</ui:GamePropsBar>
+			<ui:GameShareGift width="122" height="122" right="0" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="doubleScoreSmallFrame" width="330" height="85" x="361" y="350.6" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+			<e:Label size="85" textColor="0x74AFB0" y="10.879" x="14.079" text="+" anchorOffsetY="0" height="67"/>
+			<e:Image source="doubleSmallFrame.png" x="65.711" y="2.939" visible="true"/>
+			<e:Group id="addScoreGroup" width="112" height="32" y="29.883" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="62" visible="true" alpha="0">
+				<e:Label id="addScoreLabel" text="100" textAlign="center" horizontalCenter="-21" size="40" x="82" scaleX="1" scaleY="1" verticalCenter="0" anchorOffsetY="0" height="32" fontFamily="Arial"/>
+				<e:Image source="multiplyTwo.png" x="129.258" scaleX="1" scaleY="1" y="13"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

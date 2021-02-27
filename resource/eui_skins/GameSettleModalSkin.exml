@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSettleModalSkin"
+ xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="GameSettleBg.png"/>
+	<e:Image source="GameSettleIcon.png" y="-82" x="161"/>
+	<e:Group id="countUI" verticalCenter="-141" horizontalCenter="0" scaleX="1.5" scaleY="1.5">
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="scoreUI" horizontalCenter="0" verticalCenter="60" scaleX="2" scaleY="2">
+		
+			
+		
+		<e:layout>
+			
+				
+			
+		<e:HorizontalLayout verticalAlign="middle" gap="-5"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkinSkin"
+	 width="1130"
+	height="2000" xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*">
+	<e:Image source="HomeBg.png" left="0" top="0" height="100%" width="100%" visible="true"/>
+	<e:Image source="HomeLogo.png" horizontalCenter="0" y="277" scaleX="1.2" scaleY="1.2"/>
+	<e:Group y="170" left="87" x="46" visible="true">
+		<e:layout>
+			<e:VerticalLayout gap="50"/>
+		</e:layout>
+		<lib:ImageButton id="rankBtn" width="200" height="200" x="-3" y="-5.000000000000057" scaleX="1" scaleY="1" visible="true"/>
+		<lib:ImageButton id="soundBtn" width="200" height="200" x="733" y="846" scaleX="1" scaleY="1"/>
+		<lib:ImageButton id="shareBtn" width="200" height="200" x="899" y="1298.9999999999998" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<lib:ImageButton id="startBtn" width="200" height="200" y="1106" horizontalCenter="0"/>
+	<e:Group width="200" height="200" y="829" right="56" anchorOffsetX="100" anchorOffsetY="100" scaleX="1">
+		<lib:ImageButton id="watchVideoBtn" width="200" height="200" scaleX="1" scaleY="1" verticalCenter="0" anchorOffsetX="100" anchorOffsetY="100" horizontalCenter="0">
+		</lib:ImageButton>
+	</e:Group>
+</e:Skin>

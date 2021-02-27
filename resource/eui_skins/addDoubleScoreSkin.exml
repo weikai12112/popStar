@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="addDoubleScoreSkin"
+	 width="1130"
+	height="2000" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="doubleBigFrame.png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="doubleScore" size="85" bold="true" textColor="0x74AFB0" y="1054.399" text="+20" horizontalCenter="0"/>
+</e:Skin>

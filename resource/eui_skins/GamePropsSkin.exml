@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePropsSkin"
+ xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*" width="126" height="125">
+	<e:Image source="GamePropsBg.png" visible="false"/>
+	<e:Image id="lightCircle" source="GamePropsActive.png" horizontalCenter="0" verticalCenter="0" visible="true"/>
+	<lib:ImageButton id="button" width="100%" height="100%" rotation="360" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" visible="true">
+	</lib:ImageButton>
+	<e:Group id="numUI" bottom="10" left="95" scaleX="0.9" scaleY="0.9" visible="true">
+		<e:layout>
+			<e:HorizontalLayout gap="-8" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="watchVideoButton" horizontalCenter="2" verticalCenter="0" visible="false" source="watchVideo.png"/>
+</e:Skin>

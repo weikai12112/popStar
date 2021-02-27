@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PauseModalSkin"
+	 width="1130"
+	height="2000" xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*" xmlns:ui="ui.*" xmlns:w="http://ns.egret.com/wing">
+	<lib:Mask locked="true"/>
+	<e:Group verticalCenter="-49.5" horizontalCenter="0" anchorOffsetX="0" width="1002">
+		<e:Image source="PauseModalBg.png" scaleX="1" scaleY="1" scale9Grid="119,152,758,197" height="680"/>
+		<lib:ImageButton id="closeBtn" width="70" height="70" anchorOffsetX="0" anchorOffsetY="0" right="-6" top="24" locked="true"/>
+		<e:Image source="GameShareModalIcon.png" y="-236.637" horizontalCenter="0.5"/>
+		<e:Label text="分享好友" y="233.219" textColor="0x848484" size="60" horizontalCenter="0"/>
+		<e:Label text="随机获取一个小道具!" y="320.014" textColor="0x848484" size="60" horizontalCenter="0"/>
+		<lib:ImageButton id="shareBtn" width="200" height="200" horizontalCenter="0" verticalCenter="189"/>
+	</e:Group>
+</e:Skin>

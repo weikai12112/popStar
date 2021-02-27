@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="getPropSkin"
+	 width="909"
+	height="802" xmlns:e="http://ns.egret.com/eui" xmlns:lib="lib.*">
+	<e:Image source="dialogBox.png" visible="true" x="3" y="3"/>
+	<e:Image source="getPropsLight.png" anchorOffsetX="238.5" anchorOffsetY="233.5" visible="true" y="267.5" horizontalCenter="3"/>
+	<lib:ImageButton id="closeDiaLog" width="200" height="200" x="776.422" y="-69.633">
+	</lib:ImageButton>
+	<lib:ImageButton id="prop" width="200" height="200" y="126.663" horizontalCenter="2.5"/>
+	<e:Label id="context" text="获取道具 炸弹 X1" y="577.544" textColor="0x5E5E5E" size="54" bold="true" fontFamily="Arial" horizontalCenter="-1"/>
+</e:Skin>

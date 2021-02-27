@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSettleModalSkin"
+ xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="GameSettleBg.png"/>
+	<e:Image source="GameSettleIcon.png" y="-82" x="161"/>
+	<e:Label text="{text1}" y="192.401" size="50" horizontalCenter="3.5" textColor="0x74AFB0"/>
+	<e:Label text="{text2}" y="268.457" size="50" horizontalCenter="1" textColor="0x74AFB0"/>
+</e:Skin>

@@ -1,0 +1,584 @@
+{
+    "groups": [
+        {
+            "keys": "add.png,AudioBoom.mp3,AudioChangeColor.mp3,AudioClick.wav,AudioGameOver.wav,AudioGood.mp3,AudioHammer.mp3,AudioMissionCompleted.mp3,AudioRandom.mp3,AudioStarDisappear.mp3,closeDialog.png,ConnectBlue.png,ConnectGreen.png,ConnectPurple.png,ConnectRed.png,ConnectYellow.png,dialogBox.png,doubleBigFrame.png,doubleScore.png,doubleSmallFrame.png,GameBg1.png,GameBg2.png,GameChangeColorArrow.png,GameChangeColorModal.png,GameGifBoomSelect.json,GameGifBoomSelect.png,GameGifGood.json,GameGifGood.png,GameGifHammerSelect.json,GameGifHammerSelect.png,GameGuideHand.png,GameGuideSkip.png,GameOverBg.png,GameOverHomeBtn.png,GameOverRestartBtn.png,GameOverShareBtn.png,GamePauseBtn.png,GameProgressBg.png,GameProgressFront1.png,GameProgressFront2.png,GameProgressFront3.png,GameProgressStar.png,GameProgressWin.png,GameProgressWinBg.png,GamePropsActive.png,GamePropsBg.png,GamePropsBomb.png,GamePropsBombBoom.png,GamePropsBombX.png,GamePropsHammer.png,GamePropsHammerBoom.png,GamePropsHammerX.png,GamePropsPen.png,GamePropsPenX.png,GamePropsRandom.png,GamePropsRandomX.png,GameScoreIcon1.png,GameScoreIcon2.png,GameSettleBg.png,GameSettleIcon.png,GameShareGift.png,GameShareGiftX.png,GameShareModalBtn.png,GameShareModalIcon.png,GameStarBg.png,GameTitleLabel.png,getBomb.png,getHammer.png,getPen.png,getProps.png,getPropsLight.png,getRandom.png,HomeBg.png,HomeLogo.png,HomeRankBtn.png,HomeShareBtn.png,HomeSoundBtn.png,HomeSoundBtnMute.png,HomeStartBtn.png,LoadingProgressBg.png,LoadingProgressFront.png,LoadingStar.png,multiplyTwo.png,NumSet1.png,NumSet1.sheet.json,NumSet2.png,NumSet2.sheet.json,NumSetSlash.png,PauseModalBg.png,PauseModalCloseBtn.png,PauseModalHomeBtn.png,PauseModalRankBtn.png,PauseModalRestartBtn.png,PauseModalSaveBtn.png,RankBg.png,RankCloseBtn.png,shine.json,shine.png,StarBlue.png,StarBoomBlue.json,StarBoomBlue.png,StarBoomGreen.json,StarBoomGreen.png,StarBoomPurple.json,StarBoomPurple.png,StarBoomRed.json,StarBoomRed.png,StarBoomYellow.json,StarBoomYellow.png,StarGreen.png,StarPurple.png,StarRed.png,StarYellow.png,watchVideo.png",
+            "name": "preload"
+        },
+        {
+            "keys": "LoadingProgressBg.png,LoadingProgressFront.png,LoadingStar.png",
+            "name": "loading"
+        }
+    ],
+    "resources": [
+        {
+            "url": "assets/add.png",
+            "type": "image",
+            "name": "add.png"
+        },
+        {
+            "url": "assets/AudioBoom.mp3",
+            "type": "sound",
+            "name": "AudioBoom.mp3"
+        },
+        {
+            "url": "assets/AudioChangeColor.mp3",
+            "type": "sound",
+            "name": "AudioChangeColor.mp3"
+        },
+        {
+            "url": "assets/AudioClick.wav",
+            "type": "sound",
+            "name": "AudioClick.wav"
+        },
+        {
+            "url": "assets/AudioGameOver.wav",
+            "type": "sound",
+            "name": "AudioGameOver.wav"
+        },
+        {
+            "url": "assets/AudioGood.mp3",
+            "type": "sound",
+            "name": "AudioGood.mp3"
+        },
+        {
+            "url": "assets/AudioHammer.mp3",
+            "type": "sound",
+            "name": "AudioHammer.mp3"
+        },
+        {
+            "url": "assets/AudioMissionCompleted.mp3",
+            "type": "sound",
+            "name": "AudioMissionCompleted.mp3"
+        },
+        {
+            "url": "assets/AudioRandom.mp3",
+            "type": "sound",
+            "name": "AudioRandom.mp3"
+        },
+        {
+            "url": "assets/AudioStarDisappear.mp3",
+            "type": "sound",
+            "name": "AudioStarDisappear.mp3"
+        },
+        {
+            "url": "assets/closeDialog.png",
+            "type": "image",
+            "name": "closeDialog.png"
+        },
+        {
+            "url": "assets/ConnectBlue.png",
+            "type": "image",
+            "name": "ConnectBlue.png"
+        },
+        {
+            "url": "assets/ConnectGreen.png",
+            "type": "image",
+            "name": "ConnectGreen.png"
+        },
+        {
+            "url": "assets/ConnectPurple.png",
+            "type": "image",
+            "name": "ConnectPurple.png"
+        },
+        {
+            "url": "assets/ConnectRed.png",
+            "type": "image",
+            "name": "ConnectRed.png"
+        },
+        {
+            "url": "assets/ConnectYellow.png",
+            "type": "image",
+            "name": "ConnectYellow.png"
+        },
+        {
+            "url": "assets/dialogBox.png",
+            "type": "image",
+            "name": "dialogBox.png"
+        },
+        {
+            "url": "assets/doubleBigFrame.png",
+            "type": "image",
+            "name": "doubleBigFrame.png"
+        },
+        {
+            "url": "assets/doubleScore.png",
+            "type": "image",
+            "name": "doubleScore.png"
+        },
+        {
+            "url": "assets/doubleSmallFrame.png",
+            "type": "image",
+            "name": "doubleSmallFrame.png"
+        },
+        {
+            "url": "assets/GameBg1.png",
+            "type": "image",
+            "name": "GameBg1.png"
+        },
+        {
+            "url": "assets/GameBg2.png",
+            "type": "image",
+            "name": "GameBg2.png"
+        },
+        {
+            "url": "assets/GameChangeColorArrow.png",
+            "type": "image",
+            "name": "GameChangeColorArrow.png"
+        },
+        {
+            "url": "assets/GameChangeColorModal.png",
+            "type": "image",
+            "name": "GameChangeColorModal.png"
+        },
+        {
+            "url": "assets/GameGifBoomSelect.json",
+            "type": "json",
+            "name": "GameGifBoomSelect.json"
+        },
+        {
+            "url": "assets/GameGifBoomSelect.png",
+            "type": "image",
+            "name": "GameGifBoomSelect.png"
+        },
+        {
+            "url": "assets/GameGifGood.json",
+            "type": "json",
+            "name": "GameGifGood.json"
+        },
+        {
+            "url": "assets/GameGifGood.png",
+            "type": "image",
+            "name": "GameGifGood.png"
+        },
+        {
+            "url": "assets/GameGifHammerSelect.json",
+            "type": "json",
+            "name": "GameGifHammerSelect.json"
+        },
+        {
+            "url": "assets/GameGifHammerSelect.png",
+            "type": "image",
+            "name": "GameGifHammerSelect.png"
+        },
+        {
+            "url": "assets/GameGuideHand.png",
+            "type": "image",
+            "name": "GameGuideHand.png"
+        },
+        {
+            "url": "assets/GameGuideSkip.png",
+            "type": "image",
+            "name": "GameGuideSkip.png"
+        },
+        {
+            "url": "assets/GameOverBg.png",
+            "type": "image",
+            "name": "GameOverBg.png"
+        },
+        {
+            "url": "assets/GameOverHomeBtn.png",
+            "type": "image",
+            "name": "GameOverHomeBtn.png"
+        },
+        {
+            "url": "assets/GameOverRestartBtn.png",
+            "type": "image",
+            "name": "GameOverRestartBtn.png"
+        },
+        {
+            "url": "assets/GameOverShareBtn.png",
+            "type": "image",
+            "name": "GameOverShareBtn.png"
+        },
+        {
+            "url": "assets/GamePauseBtn.png",
+            "type": "image",
+            "name": "GamePauseBtn.png"
+        },
+        {
+            "url": "assets/GameProgressBg.png",
+            "type": "image",
+            "name": "GameProgressBg.png"
+        },
+        {
+            "url": "assets/GameProgressFront1.png",
+            "type": "image",
+            "name": "GameProgressFront1.png"
+        },
+        {
+            "url": "assets/GameProgressFront2.png",
+            "type": "image",
+            "name": "GameProgressFront2.png"
+        },
+        {
+            "url": "assets/GameProgressFront3.png",
+            "type": "image",
+            "name": "GameProgressFront3.png"
+        },
+        {
+            "url": "assets/GameProgressStar.png",
+            "type": "image",
+            "name": "GameProgressStar.png"
+        },
+        {
+            "url": "assets/GameProgressWin.png",
+            "type": "image",
+            "name": "GameProgressWin.png"
+        },
+        {
+            "url": "assets/GameProgressWinBg.png",
+            "type": "image",
+            "name": "GameProgressWinBg.png"
+        },
+        {
+            "url": "assets/GamePropsActive.png",
+            "type": "image",
+            "name": "GamePropsActive.png"
+        },
+        {
+            "url": "assets/GamePropsBg.png",
+            "type": "image",
+            "name": "GamePropsBg.png"
+        },
+        {
+            "url": "assets/GamePropsBomb.png",
+            "type": "image",
+            "name": "GamePropsBomb.png"
+        },
+        {
+            "url": "assets/GamePropsBombBoom.png",
+            "type": "image",
+            "name": "GamePropsBombBoom.png"
+        },
+        {
+            "url": "assets/GamePropsBombX.png",
+            "type": "image",
+            "name": "GamePropsBombX.png"
+        },
+        {
+            "url": "assets/GamePropsHammer.png",
+            "type": "image",
+            "name": "GamePropsHammer.png"
+        },
+        {
+            "url": "assets/GamePropsHammerBoom.png",
+            "type": "image",
+            "name": "GamePropsHammerBoom.png"
+        },
+        {
+            "url": "assets/GamePropsHammerX.png",
+            "type": "image",
+            "name": "GamePropsHammerX.png"
+        },
+        {
+            "url": "assets/GamePropsPen.png",
+            "type": "image",
+            "name": "GamePropsPen.png"
+        },
+        {
+            "url": "assets/GamePropsPenX.png",
+            "type": "image",
+            "name": "GamePropsPenX.png"
+        },
+        {
+            "url": "assets/GamePropsRandom.png",
+            "type": "image",
+            "name": "GamePropsRandom.png"
+        },
+        {
+            "url": "assets/GamePropsRandomX.png",
+            "type": "image",
+            "name": "GamePropsRandomX.png"
+        },
+        {
+            "url": "assets/GameScoreIcon1.png",
+            "type": "image",
+            "name": "GameScoreIcon1.png"
+        },
+        {
+            "url": "assets/GameScoreIcon2.png",
+            "type": "image",
+            "name": "GameScoreIcon2.png"
+        },
+        {
+            "url": "assets/GameSettleBg.png",
+            "type": "image",
+            "name": "GameSettleBg.png"
+        },
+        {
+            "url": "assets/GameSettleIcon.png",
+            "type": "image",
+            "name": "GameSettleIcon.png"
+        },
+        {
+            "url": "assets/GameShareGift.png",
+            "type": "image",
+            "name": "GameShareGift.png"
+        },
+        {
+            "url": "assets/GameShareGiftX.png",
+            "type": "image",
+            "name": "GameShareGiftX.png"
+        },
+        {
+            "url": "assets/GameShareModalBtn.png",
+            "type": "image",
+            "name": "GameShareModalBtn.png"
+        },
+        {
+            "url": "assets/GameShareModalIcon.png",
+            "type": "image",
+            "name": "GameShareModalIcon.png"
+        },
+        {
+            "url": "assets/GameStarBg.png",
+            "type": "image",
+            "name": "GameStarBg.png"
+        },
+        {
+            "url": "assets/GameTitleLabel.png",
+            "type": "image",
+            "name": "GameTitleLabel.png"
+        },
+        {
+            "url": "assets/getBomb.png",
+            "type": "image",
+            "name": "getBomb.png"
+        },
+        {
+            "url": "assets/getHammer.png",
+            "type": "image",
+            "name": "getHammer.png"
+        },
+        {
+            "url": "assets/getPen.png",
+            "type": "image",
+            "name": "getPen.png"
+        },
+        {
+            "url": "assets/getProps.png",
+            "type": "image",
+            "name": "getProps.png"
+        },
+        {
+            "url": "assets/getPropsLight.png",
+            "type": "image",
+            "name": "getPropsLight.png"
+        },
+        {
+            "url": "assets/getRandom.png",
+            "type": "image",
+            "name": "getRandom.png"
+        },
+        {
+            "url": "assets/HomeBg.png",
+            "type": "image",
+            "name": "HomeBg.png"
+        },
+        {
+            "url": "assets/HomeLogo.png",
+            "type": "image",
+            "name": "HomeLogo.png"
+        },
+        {
+            "url": "assets/HomeRankBtn.png",
+            "type": "image",
+            "name": "HomeRankBtn.png"
+        },
+        {
+            "url": "assets/HomeShareBtn.png",
+            "type": "image",
+            "name": "HomeShareBtn.png"
+        },
+        {
+            "url": "assets/HomeSoundBtn.png",
+            "type": "image",
+            "name": "HomeSoundBtn.png"
+        },
+        {
+            "url": "assets/HomeSoundBtnMute.png",
+            "type": "image",
+            "name": "HomeSoundBtnMute.png"
+        },
+        {
+            "url": "assets/HomeStartBtn.png",
+            "type": "image",
+            "name": "HomeStartBtn.png"
+        },
+        {
+            "url": "assets/LoadingProgressBg.png",
+            "type": "image",
+            "name": "LoadingProgressBg.png"
+        },
+        {
+            "url": "assets/LoadingProgressFront.png",
+            "type": "image",
+            "name": "LoadingProgressFront.png"
+        },
+        {
+            "url": "assets/LoadingStar.png",
+            "type": "image",
+            "name": "LoadingStar.png"
+        },
+        {
+            "url": "assets/multiplyTwo.png",
+            "type": "image",
+            "name": "multiplyTwo.png"
+        },
+        {
+            "url": "assets/NumSet1.png",
+            "type": "image",
+            "name": "NumSet1.png"
+        },
+        {
+            "url": "assets/NumSet1.sheet.json",
+            "type": "sheet",
+            "name": "NumSet1.sheet.json"
+        },
+        {
+            "url": "assets/NumSet2.png",
+            "type": "image",
+            "name": "NumSet2.png"
+        },
+        {
+            "url": "assets/NumSet2.sheet.json",
+            "type": "sheet",
+            "name": "NumSet2.sheet.json"
+        },
+        {
+            "url": "assets/NumSetSlash.png",
+            "type": "image",
+            "name": "NumSetSlash.png"
+        },
+        {
+            "url": "assets/PauseModalBg.png",
+            "type": "image",
+            "name": "PauseModalBg.png"
+        },
+        {
+            "url": "assets/PauseModalCloseBtn.png",
+            "type": "image",
+            "name": "PauseModalCloseBtn.png"
+        },
+        {
+            "url": "assets/PauseModalHomeBtn.png",
+            "type": "image",
+            "name": "PauseModalHomeBtn.png"
+        },
+        {
+            "url": "assets/PauseModalRankBtn.png",
+            "type": "image",
+            "name": "PauseModalRankBtn.png"
+        },
+        {
+            "url": "assets/PauseModalRestartBtn.png",
+            "type": "image",
+            "name": "PauseModalRestartBtn.png"
+        },
+        {
+            "url": "assets/PauseModalSaveBtn.png",
+            "type": "image",
+            "name": "PauseModalSaveBtn.png"
+        },
+        {
+            "url": "assets/RankBg.png",
+            "type": "image",
+            "name": "RankBg.png"
+        },
+        {
+            "url": "assets/RankCloseBtn.png",
+            "type": "image",
+            "name": "RankCloseBtn.png"
+        },
+        {
+            "url": "assets/shine.json",
+            "type": "json",
+            "name": "shine.json"
+        },
+        {
+            "url": "assets/shine.png",
+            "type": "image",
+            "name": "shine.png"
+        },
+        {
+            "url": "assets/StarBlue.png",
+            "type": "image",
+            "name": "StarBlue.png"
+        },
+        {
+            "url": "assets/StarBoomBlue.json",
+            "type": "json",
+            "name": "StarBoomBlue.json"
+        },
+        {
+            "url": "assets/StarBoomBlue.png",
+            "type": "image",
+            "name": "StarBoomBlue.png"
+        },
+        {
+            "url": "assets/StarBoomGreen.json",
+            "type": "json",
+            "name": "StarBoomGreen.json"
+        },
+        {
+            "url": "assets/StarBoomGreen.png",
+            "type": "image",
+            "name": "StarBoomGreen.png"
+        },
+        {
+            "url": "assets/StarBoomPurple.json",
+            "type": "json",
+            "name": "StarBoomPurple.json"
+        },
+        {
+            "url": "assets/StarBoomPurple.png",
+            "type": "image",
+            "name": "StarBoomPurple.png"
+        },
+        {
+            "url": "assets/StarBoomRed.json",
+            "type": "json",
+            "name": "StarBoomRed.json"
+        },
+        {
+            "url": "assets/StarBoomRed.png",
+            "type": "image",
+            "name": "StarBoomRed.png"
+        },
+        {
+            "url": "assets/StarBoomYellow.json",
+            "type": "json",
+            "name": "StarBoomYellow.json"
+        },
+        {
+            "url": "assets/StarBoomYellow.png",
+            "type": "image",
+            "name": "StarBoomYellow.png"
+        },
+        {
+            "url": "assets/StarGreen.png",
+            "type": "image",
+            "name": "StarGreen.png"
+        },
+        {
+            "url": "assets/StarPurple.png",
+            "type": "image",
+            "name": "StarPurple.png"
+        },
+        {
+            "url": "assets/StarRed.png",
+            "type": "image",
+            "name": "StarRed.png"
+        },
+        {
+            "url": "assets/StarYellow.png",
+            "type": "image",
+            "name": "StarYellow.png"
+        },
+        {
+            "url": "assets/watchVideo.png",
+            "type": "image",
+            "name": "watchVideo.png"
+        }
+    ]
+}
